@@ -20,6 +20,9 @@ namespace gggit4
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Text = "НАЖАТИЕ";
+            int a = 5;
+            label1.Text+= a;
         }
+
     }
 }
